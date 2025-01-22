@@ -12,6 +12,8 @@ body {
 
 .content {
   padding: 30px;
+  display: flex;
+  gap: 20px;
 }
 
 h2 {
@@ -27,6 +29,26 @@ p {
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-submit-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.form-group-horizontal-control,
+.location-group {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+
+.location-group {
+  flex-direction: column;
 }
 
 .subtext {

@@ -56,16 +56,16 @@ You'll discover certain styles existing in the initial state of the CSS files. T
 
 Acceptance criteria:
 
-- [ ] The layout should closely resemble the mockup.
-- [ ] Avoid using margin and float CSS rules to define distance/space between elements or their alignment.
-- [ ] Positioning (utilizing the position CSS property) is prohibited.
-- [ ] Edit the following files:
-  - [ ] html: `/pages/authentication-form.html`
-  - [ ] css: `/css/authentication-form.css`
+- [x] The layout should closely resemble the mockup.
+- [x] Avoid using margin and float CSS rules to define distance/space between elements or their alignment.
+- [x] Positioning (utilizing the position CSS property) is prohibited.
+- [x] Edit the following files:
+  - [x] html: `/pages/authentication-form.html`
+  - [x] css: `/css/authentication-form.css`
 
 Create the form HTML elements to imitate the mockup:
 
-- [ ] Wrap each group of a label and input elements with a container representing a row.
+- [x] Wrap each group of a label and input elements with a container representing a row.
 - [ ] Maintain a 6px distance between the label and the input.
 - [ ] Keep a 30px distance between each row.
 - [ ] Bolden label text when paired with a text or text-like input field.

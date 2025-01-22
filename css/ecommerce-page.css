@@ -34,12 +34,17 @@ section {
   width: 100%;
   max-width: 964px;
   margin: 0 auto;
+  display: flex;
+  gap: 70px;
 }
 
 .header-content {
 }
 
 .logo-search {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .logo {
@@ -54,6 +59,8 @@ section {
   background: #1f1f27;
   padding: 10px 20px;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .search-bar input {
@@ -71,12 +78,19 @@ section {
 }
 
 .options {
+  display: flex;
+  gap: 20px;
 }
 
 .option {
   min-width: 60px;
   text-transform: capitalize;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 .option i {
@@ -87,6 +101,8 @@ section {
 .categories {
   background-color: #2b2d36;
   padding-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .category {
@@ -110,7 +126,20 @@ section {
   color: #1f1f27;
 }
 
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.view-options,
+.section-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .view-options {
+  gap: 20px;
 }
 
 i.fa-th-list {
