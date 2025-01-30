@@ -38,9 +38,6 @@ section {
   gap: 70px;
 }
 
-.header-content {
-}
-
 .logo-search {
   display: flex;
   align-items: center;
@@ -129,6 +126,10 @@ section {
 .content-wrapper {
   display: flex;
   flex-direction: column;
+}
+
+.header-content {
+  flex-direction: row;
 }
 
 .view-options,
@@ -302,9 +303,6 @@ i.fa-th-list {
 
 .lines .product-info {
   gap: 20px;
-}
-
-.lines .product-action {
 }
 
 /* LINES-ACTION VIEW */
